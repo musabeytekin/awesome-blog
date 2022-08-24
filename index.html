@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="tr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <title>Awesome Blog</title>
 </head>
-
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark">
@@ -25,11 +19,11 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="mobile" class="collapse navbar-collapse">
-
+            <div id="mobile" class="collapse navbar-collapse">               
+          
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="index.html" class="nav-link active">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="blogs.html" class="nav-link">Blogs</a>
@@ -38,11 +32,11 @@
                         <a href="contact.html" class="nav-link">Contact</a>
                     </li>
                 </ul>
-                <form class="d-flex">
+                <form class="d-flex">           
                     <input type="text" class="form-control me-1" placeholder="Search">
                     <button class="btn btn-warning">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
+                    </button>                
                 </form>
 
             </div>
@@ -55,18 +49,18 @@
             <h1 class="display-4 fw-bold">Awesome Blog</h1>
             <div class="col-lg-6 mx-auto">
                 <p class="lead mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aspernatur iure, sapiente
-                    consequuntur suscipit ex at obcaecati voluptatem culpa labore ducimus rerum autem odio, libero id
-                    repellat tempore, harum neque.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam saepe quidem mollitia deleniti pariatur commodi hic corrupti beatae molestiae praesentium?
                 </p>
-
                 <div class="mb-5 d-grid gap-2 d-md-flex justify-content-md-center">
-                    <button class="btn btn-primary btn-lg"><i class="fa-solid fa-caret-right"></i> Read</button>
-                    <button class="btn btn-outline-secondary"> <i class="fa-solid fa-caret-right"></i> Write</button>
+                    <button class="btn btn-primary btn-lg">
+                        <i class="fa-solid fa-caret-right"></i> Button</button>
+                    <button class="btn btn-outline-secondary btn-lg">
+                            <i class="fa-solid fa-caret-right"></i> Button</button>
                 </div>
-                <div class="overflow-hidden" style="max-height:30vh;">
-                    <img src="img/bg.png" alt="" class="img-fluid border rounded-3 shadow-lg mb-4" width="700"
-                        height="500">
+                <div class="overflow-hidden" style="max-height: 30vh;">
+                    <div class="container px-5">
+                        <img src="img/bg2.png" class="img-fluid border rounded-3 shadow-lg mb-4" width="700" height="500" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,14 +72,13 @@
                 <h1 class="display-5 fw-bold">Lorem, ipsum.</h1>
                 <div class="col-lg-6 mx-auto">
                     <p class="lead mb-4">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam saepe quidem mollitia deleniti
-                        pariatur commodi hic corrupti beatae molestiae praesentium?
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam saepe quidem mollitia deleniti pariatur commodi hic corrupti beatae molestiae praesentium?
                     </p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                         <button class="btn btn-outline-warning btn-lg">
-                            <i class="fa-solid fa-caret-right"></i> Read</button>
+                            <i class="fa-solid fa-caret-right"></i> Button</button>
                         <button class="btn btn-outline-light btn-lg">
-                            <i class="fa-solid fa-caret-right"></i> Write</button>
+                                <i class="fa-solid fa-caret-right"></i> Button</button>
                     </div>
                 </div>
             </div>
@@ -98,28 +91,7 @@
                         <img src="img/1.jpeg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title">Lorem, ipsum.</h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-3 shadow">
-                        <img src="img/6.jpeg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Lorem, ipsum.</h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-3 shadow">
-                        <img src="img/3.jpeg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Lorem, ipsum.</h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?
-                            </p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?</p>
                         </div>
                     </div>
                 </div>
@@ -128,8 +100,25 @@
                         <img src="img/4.jpeg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title">Lorem, ipsum.</h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?
-                            </p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/3.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem, ipsum.</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/4.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem, ipsum.</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?</p>
                         </div>
                     </div>
                 </div>
@@ -138,8 +127,7 @@
                         <img src="img/1.jpeg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title">Lorem, ipsum.</h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?
-                            </p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?</p>
                         </div>
                     </div>
                 </div>
@@ -148,8 +136,7 @@
                         <img src="img/6.jpeg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title">Lorem, ipsum.</h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?
-                            </p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?</p>
                         </div>
                     </div>
                 </div>
@@ -162,10 +149,8 @@
             <span>All Rights Reserved. @2025</span>
         </div>
     </footer>
+    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-
 </html>
