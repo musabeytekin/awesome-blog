@@ -12,8 +12,17 @@
     object-fit: cover;
 }
 
-@media (min-width: 768px) {
+#map {
+    height: 450px;
+}
+
+@media (min-width: 768px) { 
     .card-img-top {
         height: 32vh;
     }
-}
+
+    #map {
+        height: 100%;
+    }
+ }
+
